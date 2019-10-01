@@ -5,10 +5,10 @@ script:
 - echo "toto est pas beau"
 - npm update
 deploy:
-  provider: pages
+  provider: pages 
   skip_cleanup: true
   github_token: $TokenGithub
   keep_history: true
-  local-dir:out
+  local-dir: out
   on:
     branch: master
